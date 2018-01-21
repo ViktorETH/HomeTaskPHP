@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method=POST action='action.php'
+      style="
+      border: solid 1px black;
+      width: 155px;
+      margin: 10px auto;
+      padding: 15px;
+      background-color: beige;">
+    <label for="first">Число №1<br></label>
+    <input type="text" id="first" name="a"><br>
+    <label for="second">Число №2<br></label>
+    <input type="text" id="second" name="b"><br>
+    <label>
+        <select name="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+    </label><br><br>
+    <input type="submit" value="посчитать">
+</form>
+</body>
+</html>
